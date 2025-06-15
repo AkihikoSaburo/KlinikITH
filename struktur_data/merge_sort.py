@@ -27,14 +27,6 @@ def merge(left, right):
     sorted_items.extend(right[j:])
     return sorted_items
 
-def save_sorted_json_with_merge_sort(filepath, hashtable_data):
-    items = list(hashtable_data.items())
-    sorted_items = merge_sort_dict_items(items)
-    sorted_dict = dict(sorted_items)
-
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(sorted_dict, f, ensure_ascii=False, indent=2)
-
 # Contoh penggunaan:
 if __name__ == "__main__":
     sample_data = {

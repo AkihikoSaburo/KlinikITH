@@ -5,7 +5,7 @@ import json
 import os
 
 from struktur_data.hash_table import HashTable
-from struktur_data.merge_sort_json import merge_sort_dict_items
+from struktur_data.merge_sort import merge_sort_dict_items
 
 def load_json_as_hashtable(filepath):
     """
