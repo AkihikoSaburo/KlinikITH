@@ -1,0 +1,497 @@
+{
+  "240202001": {
+    "nama": "Hadi Wulandari",
+    "tgl_lahir": "2000-09-04",
+    "prodi": "Teknik Sipil"
+  },
+  "220401001": {
+    "nama": "Farhan Permata",
+    "tgl_lahir": "2001-04-06",
+    "prodi": "Teknik Metalurgi"
+  },
+  "240102002": {
+    "nama": "Intan Permata",
+    "tgl_lahir": "2005-11-19",
+    "prodi": "Sains Aktuaria"
+  },
+  "230201001": {
+    "nama": "Budi Wijaya",
+    "tgl_lahir": "2000-07-11",
+    "prodi": "Arsitektur"
+  },
+  "230303002": {
+    "nama": "Budi Saputra",
+    "tgl_lahir": "2001-10-30",
+    "prodi": "Sains Data"
+  },
+  "240403003": {
+    "nama": "Ayu Siregar",
+    "tgl_lahir": "2002-08-03",
+    "prodi": "Teknologi Pangan"
+  },
+  "220302002": {
+    "nama": "Joko Pratama",
+    "tgl_lahir": "2000-04-11",
+    "prodi": "Sistem Informasi"
+  },
+  "230301003": {
+    "nama": "Ayu Rahma",
+    "tgl_lahir": "2000-07-31",
+    "prodi": "Ilmu Komputer"
+  },
+  "220102003": {
+    "nama": "Eka Putri",
+    "tgl_lahir": "2000-03-10",
+    "prodi": "Sains Aktuaria"
+  },
+  "230201004": {
+    "nama": "Citra Wulandari",
+    "tgl_lahir": "2004-07-25",
+    "prodi": "Arsitektur"
+  },
+  "220102004": {
+    "nama": "Hadi Permata",
+    "tgl_lahir": "2004-02-17",
+    "prodi": "Sains Aktuaria"
+  },
+  "220303005": {
+    "nama": "Citra Maulana",
+    "tgl_lahir": "2000-04-21",
+    "prodi": "Sains Data"
+  },
+  "220101006": {
+    "nama": "Budi Santoso",
+    "tgl_lahir": "2001-09-05",
+    "prodi": "Matematika"
+  },
+  "230402005": {
+    "nama": "Eka Siregar",
+    "tgl_lahir": "2003-03-23",
+    "prodi": "Teknik Sistem Energi"
+  },
+  "220101007": {
+    "nama": "Hadi Pratama",
+    "tgl_lahir": "2001-06-17",
+    "prodi": "Matematika"
+  },
+  "220201008": {
+    "nama": "Eka Rahma",
+    "tgl_lahir": "2002-10-01",
+    "prodi": "Arsitektur"
+  },
+  "230103006": {
+    "nama": "Joko Siregar",
+    "tgl_lahir": "2003-03-13",
+    "prodi": "Bioteknologi"
+  },
+  "240401004": {
+    "nama": "Citra Siregar",
+    "tgl_lahir": "2001-04-10",
+    "prodi": "Teknik Metalurgi"
+  },
+  "230301007": {
+    "nama": "Budi Rahma",
+    "tgl_lahir": "2005-12-19",
+    "prodi": "Ilmu Komputer"
+  },
+  "240302005": {
+    "nama": "Farhan Santoso",
+    "tgl_lahir": "2003-06-23",
+    "prodi": "Sistem Informasi"
+  },
+  "220101009": {
+    "nama": "Joko Wijaya",
+    "tgl_lahir": "2005-04-27",
+    "prodi": "Matematika"
+  },
+  "240302006": {
+    "nama": "Intan Wulandari",
+    "tgl_lahir": "2001-03-07",
+    "prodi": "Sistem Informasi"
+  },
+  "220202010": {
+    "nama": "Ayu Rahma",
+    "tgl_lahir": "2000-09-30",
+    "prodi": "Teknik Sipil"
+  },
+  "240103007": {
+    "nama": "Budi Maulana",
+    "tgl_lahir": "2002-09-19",
+    "prodi": "Bioteknologi"
+  },
+  "230403008": {
+    "nama": "Citra Siregar",
+    "tgl_lahir": "2003-11-29",
+    "prodi": "Teknologi Pangan"
+  },
+  "220102011": {
+    "nama": "Eka Wulandari",
+    "tgl_lahir": "2002-05-09",
+    "prodi": "Sains Aktuaria"
+  },
+  "220102012": {
+    "nama": "Eka Wijaya",
+    "tgl_lahir": "2001-08-22",
+    "prodi": "Sains Aktuaria"
+  },
+  "220202013": {
+    "nama": "Eka Maulana",
+    "tgl_lahir": "2005-12-15",
+    "prodi": "Teknik Sipil"
+  },
+  "230302009": {
+    "nama": "Dimas Maulana",
+    "tgl_lahir": "2000-07-02",
+    "prodi": "Sistem Informasi"
+  },
+  "240201008": {
+    "nama": "Gita Wijaya",
+    "tgl_lahir": "2005-05-05",
+    "prodi": "Arsitektur"
+  },
+  "240102009": {
+    "nama": "Dimas Maulana",
+    "tgl_lahir": "2002-07-04",
+    "prodi": "Sains Aktuaria"
+  },
+  "240202010": {
+    "nama": "Dimas Putri",
+    "tgl_lahir": "2005-09-20",
+    "prodi": "Teknik Sipil"
+  },
+  "230401010": {
+    "nama": "Ayu Saputra",
+    "tgl_lahir": "2001-10-22",
+    "prodi": "Teknik Metalurgi"
+  },
+  "220401014": {
+    "nama": "Gita Santoso",
+    "tgl_lahir": "2000-08-04",
+    "prodi": "Teknik Metalurgi"
+  },
+  "220201015": {
+    "nama": "Gita Siregar",
+    "tgl_lahir": "2004-02-20",
+    "prodi": "Arsitektur"
+  },
+  "220202016": {
+    "nama": "Joko Wijaya",
+    "tgl_lahir": "2001-07-01",
+    "prodi": "Teknik Sipil"
+  },
+  "230101011": {
+    "nama": "Ayu Santoso",
+    "tgl_lahir": "2005-03-22",
+    "prodi": "Matematika"
+  },
+  "220402017": {
+    "nama": "Gita Saputra",
+    "tgl_lahir": "2005-06-23",
+    "prodi": "Teknik Sistem Energi"
+  },
+  "230103012": {
+    "nama": "Dimas Maulana",
+    "tgl_lahir": "2001-01-13",
+    "prodi": "Bioteknologi"
+  },
+  "240103011": {
+    "nama": "Dimas Saputra",
+    "tgl_lahir": "2001-12-05",
+    "prodi": "Bioteknologi"
+  },
+  "240202012": {
+    "nama": "Gita Wulandari",
+    "tgl_lahir": "2001-02-01",
+    "prodi": "Teknik Sipil"
+  },
+  "220403018": {
+    "nama": "Eka Permata",
+    "tgl_lahir": "2000-02-05",
+    "prodi": "Teknologi Pangan"
+  },
+  "240401013": {
+    "nama": "Joko Permata",
+    "tgl_lahir": "2001-01-08",
+    "prodi": "Teknik Metalurgi"
+  },
+  "230202013": {
+    "nama": "Hadi Santoso",
+    "tgl_lahir": "2002-05-03",
+    "prodi": "Teknik Sipil"
+  },
+  "230403014": {
+    "nama": "Intan Wijaya",
+    "tgl_lahir": "2002-03-03",
+    "prodi": "Teknologi Pangan"
+  },
+  "240101014": {
+    "nama": "Gita Rahma",
+    "tgl_lahir": "2004-12-11",
+    "prodi": "Matematika"
+  },
+  "230103015": {
+    "nama": "Intan Permata",
+    "tgl_lahir": "2003-03-04",
+    "prodi": "Bioteknologi"
+  },
+  "230202016": {
+    "nama": "Ayu Siregar",
+    "tgl_lahir": "2000-10-09",
+    "prodi": "Teknik Sipil"
+  },
+  "230401017": {
+    "nama": "Eka Maulana",
+    "tgl_lahir": "2002-08-16",
+    "prodi": "Teknik Metalurgi"
+  },
+  "240101015": {
+    "nama": "Farhan Rahma",
+    "tgl_lahir": "2003-10-31",
+    "prodi": "Matematika"
+  },
+  "240301016": {
+    "nama": "Hadi Saputra",
+    "tgl_lahir": "2002-07-27",
+    "prodi": "Ilmu Komputer"
+  },
+  "240103017": {
+    "nama": "Joko Siregar",
+    "tgl_lahir": "2001-04-04",
+    "prodi": "Bioteknologi"
+  },
+  "220302019": {
+    "nama": "Ayu Rahma",
+    "tgl_lahir": "2003-07-11",
+    "prodi": "Sistem Informasi"
+  },
+  "230301018": {
+    "nama": "Hadi Wulandari",
+    "tgl_lahir": "2002-06-02",
+    "prodi": "Ilmu Komputer"
+  },
+  "220303020": {
+    "nama": "Ayu Pratama",
+    "tgl_lahir": "2003-09-06",
+    "prodi": "Sains Data"
+  },
+  "240402018": {
+    "nama": "Intan Siregar",
+    "tgl_lahir": "2000-07-18",
+    "prodi": "Teknik Sistem Energi"
+  },
+  "240403019": {
+    "nama": "Gita Putri",
+    "tgl_lahir": "2002-01-18",
+    "prodi": "Teknologi Pangan"
+  },
+  "230402019": {
+    "nama": "Ayu Wulandari",
+    "tgl_lahir": "2001-02-05",
+    "prodi": "Teknik Sistem Energi"
+  },
+  "240302020": {
+    "nama": "Joko Santoso",
+    "tgl_lahir": "2005-08-18",
+    "prodi": "Sistem Informasi"
+  },
+  "240201021": {
+    "nama": "Joko Maulana",
+    "tgl_lahir": "2001-07-08",
+    "prodi": "Arsitektur"
+  },
+  "220301021": {
+    "nama": "Ayu Maulana",
+    "tgl_lahir": "2001-11-28",
+    "prodi": "Ilmu Komputer"
+  },
+  "240101022": {
+    "nama": "Budi Maulana",
+    "tgl_lahir": "2005-08-12",
+    "prodi": "Matematika"
+  },
+  "240302023": {
+    "nama": "Hadi Maulana",
+    "tgl_lahir": "2005-04-10",
+    "prodi": "Sistem Informasi"
+  },
+  "230303020": {
+    "nama": "Dimas Permata",
+    "tgl_lahir": "2004-10-27",
+    "prodi": "Sains Data"
+  },
+  "240201024": {
+    "nama": "Gita Permata",
+    "tgl_lahir": "2004-05-14",
+    "prodi": "Arsitektur"
+  },
+  "240201025": {
+    "nama": "Dimas Saputra",
+    "tgl_lahir": "2005-04-08",
+    "prodi": "Arsitektur"
+  },
+  "240302026": {
+    "nama": "Budi Permata",
+    "tgl_lahir": "2002-07-29",
+    "prodi": "Sistem Informasi"
+  },
+  "240201027": {
+    "nama": "Joko Wulandari",
+    "tgl_lahir": "2003-06-27",
+    "prodi": "Arsitektur"
+  },
+  "240302028": {
+    "nama": "Citra Pratama",
+    "tgl_lahir": "2004-01-09",
+    "prodi": "Sistem Informasi"
+  },
+  "220103022": {
+    "nama": "Budi Permata",
+    "tgl_lahir": "2005-07-23",
+    "prodi": "Bioteknologi"
+  },
+  "240201029": {
+    "nama": "Hadi Siregar",
+    "tgl_lahir": "2001-11-27",
+    "prodi": "Arsitektur"
+  },
+  "240102030": {
+    "nama": "Hadi Pratama",
+    "tgl_lahir": "2005-10-26",
+    "prodi": "Sains Aktuaria"
+  },
+  "220201023": {
+    "nama": "Joko Pratama",
+    "tgl_lahir": "2004-03-16",
+    "prodi": "Arsitektur"
+  },
+  "240402031": {
+    "nama": "Budi Santoso",
+    "tgl_lahir": "2001-08-03",
+    "prodi": "Teknik Sistem Energi"
+  },
+  "230403021": {
+    "nama": "Citra Putri",
+    "tgl_lahir": "2003-01-17",
+    "prodi": "Teknologi Pangan"
+  },
+  "240101032": {
+    "nama": "Gita Pratama",
+    "tgl_lahir": "2002-08-20",
+    "prodi": "Matematika"
+  },
+  "240202033": {
+    "nama": "Budi Rahma",
+    "tgl_lahir": "2001-09-30",
+    "prodi": "Teknik Sipil"
+  },
+  "220401024": {
+    "nama": "Hadi Permata",
+    "tgl_lahir": "2003-06-26",
+    "prodi": "Teknik Metalurgi"
+  },
+  "240201034": {
+    "nama": "Eka Permata",
+    "tgl_lahir": "2000-02-04",
+    "prodi": "Arsitektur"
+  },
+  "240103035": {
+    "nama": "Intan Maulana",
+    "tgl_lahir": "2001-12-30",
+    "prodi": "Bioteknologi"
+  },
+  "230201022": {
+    "nama": "Farhan Pratama",
+    "tgl_lahir": "2002-12-05",
+    "prodi": "Arsitektur"
+  },
+  "240202036": {
+    "nama": "Dimas Maulana",
+    "tgl_lahir": "2000-01-08",
+    "prodi": "Teknik Sipil"
+  },
+  "240201037": {
+    "nama": "Gita Santoso",
+    "tgl_lahir": "2000-09-05",
+    "prodi": "Arsitektur"
+  },
+  "240403038": {
+    "nama": "Gita Wulandari",
+    "tgl_lahir": "2003-06-02",
+    "prodi": "Teknologi Pangan"
+  },
+  "230202024": {
+    "nama": "Dimas Wulandari",
+    "tgl_lahir": "2003-10-22",
+    "prodi": "Teknik Sipil"
+  },
+  "240202039": {
+    "nama": "Dimas Maulana",
+    "tgl_lahir": "2005-06-06",
+    "prodi": "Teknik Sipil"
+  },
+  "240303040": {
+    "nama": "Eka Rahma",
+    "tgl_lahir": "2005-09-05",
+    "prodi": "Sains Data"
+  },
+  "220201025": {
+    "nama": "Farhan Putri",
+    "tgl_lahir": "2003-02-07",
+    "prodi": "Arsitektur"
+  },
+  "230202025": {
+    "nama": "Eka Maulana",
+    "tgl_lahir": "2000-05-02",
+    "prodi": "Teknik Sipil"
+  },
+  "220401026": {
+    "nama": "Dimas Santoso",
+    "tgl_lahir": "2001-03-27",
+    "prodi": "Teknik Metalurgi"
+  },
+  "240201041": {
+    "nama": "Budi Pratama",
+    "tgl_lahir": "2000-08-02",
+    "prodi": "Arsitektur"
+  },
+  "230202026": {
+    "nama": "Dimas Putri",
+    "tgl_lahir": "2005-11-08",
+    "prodi": "Teknik Sipil"
+  },
+  "220403027": {
+    "nama": "Budi Permata",
+    "tgl_lahir": "2001-04-14",
+    "prodi": "Teknologi Pangan"
+  },
+  "230301027": {
+    "nama": "Ayu Siregar",
+    "tgl_lahir": "2005-01-07",
+    "prodi": "Ilmu Komputer"
+  },
+  "220201028": {
+    "nama": "Gita Saputra",
+    "tgl_lahir": "2002-06-07",
+    "prodi": "Arsitektur"
+  },
+  "230202028": {
+    "nama": "Gita Permata",
+    "tgl_lahir": "2005-12-21",
+    "prodi": "Teknik Sipil"
+  },
+  "220301029": {
+    "nama": "Budi Santoso",
+    "tgl_lahir": "2000-10-07",
+    "prodi": "Ilmu Komputer"
+  },
+  "240301042": {
+    "nama": "Budi Santoso",
+    "tgl_lahir": "2000-03-17",
+    "prodi": "Ilmu Komputer"
+  },
+  "240202043": {
+    "nama": "Budi Siregar",
+    "tgl_lahir": "2004-08-05",
+    "prodi": "Teknik Sipil"
+  }
+}

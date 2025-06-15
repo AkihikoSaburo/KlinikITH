@@ -1,0 +1,154 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6fafd;
+  color: #222;
+}
+
+/* NAVBAR */
+nav {
+  background-color: #0099ff;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-left {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.logo-placeholder img {
+  width: 40px;
+  height: 40px;
+  background-color: #88bce7;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.nav-right a:hover {
+  background-color: #357bb867;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+.container table{
+  margin-bottom: 2rem;
+}
+
+.container a {
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1px;
+}
+
+.search-bar {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 8px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #357ab8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+thead {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.wave-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  line-height: 0;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  th, td {
+    font-size: 10px;
+    padding: 4px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .nav-left{
+    justify-content: center;
+    flex: unset;
+  }
+  
+  .nav-right {
+    justify-content: center;
+    flex: unset;
+    margin-top: 8px;
+  }
+}
+

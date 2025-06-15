@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Kunjungan</title>
+  <link rel="icon" href="{{ url_for('static', filename='ITH_No_BG.png') }}" type="image/png">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/kunjungan.css') }}">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-left">
+      <div class="logo-placeholder"><img src="{{ url_for('static', filename='ITH.png') }}" alt="Logo ITH"></div>
+      <span><a href="/" style="text-decoration: none; color: white;"><strong>Klinik ITH</strong></a></span>
+    </div>
+    <div class="nav-right">
+      <a href="/">Dashboard</a>
+      <a href="/mahasiswa" style="margin-left: 15px;">Statistik Mahasiswa</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Input Kunjungan Mahasiswa</h1>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <ul class="flash-messages">
+          {% for category, message in messages %}
+            <li class="flash {{ category }}">{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+
+    <form method="POST" action="/input/">
+      <h3>Data Pasien</h3>
+      <label for="nim">NIM</label>
+      <input type="text" name="nim" required>
+
+      <label for="nama">Nama</label>
+      <input type="text" name="nama" required>
+
+      <label for="tgl_lahir">Tanggal Lahir</label>
+      <input type="date" name="tgl_lahir" required>
+
+      <label for="prodi">Program Studi</label>
+      <input type="text" name="prodi" required>
+
+      <h3>Data Kunjungan</h3>
+      <label for="tanggal">Tanggal Kunjungan</label>
+      <input type="date" name="tanggal" required>
+
+      <label for="gejala">Gejala</label>
+      <input type="text" name="gejala" required>
+
+      <label for="diagnosa">Diagnosa</label>
+      <input type="text" name="diagnosa" required>
+
+      <label for="obat">Obat</label>
+      <input type="text" name="obat" required>
+
+      <button type="submit">Simpan Kunjungan</button>
+    </form>
+  </div>
+  <div class="wave-footer">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L48,170.7C96,181,192,203,288,186.7C384,171,480,117,576,122.7C672,128,768,192,864,197.3C960,203,1056,149,1152,144C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </div>
+</body>
+</html>

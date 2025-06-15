@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Klinik ITH</title>
+  <link rel="icon" href="{{ url_for('static', filename='ITH_No_BG.png') }}" type="image/png">
+  <!-- LINK CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-left">
+      <div class="logo-placeholder"><img src="{{ url_for('static', filename='ITH.png') }}" alt="Logo ITH"></div>
+      <span><a href="/" style="text-decoration: none; color: white;"><strong>Klinik ITH</strong></a></span>
+    </div>
+    <div class="nav-right">
+      <a href="/input">Input Pasien</a>
+      <a href="/mahasiswa" style="margin-left: 15px;">Mahasiswa</a>
+    </div>
+  </nav>
+
+
+  <!-- ISI -->
+  <div class="container">
+    <h1 style="text-align: center;">Statistik Penyakit Terbanyak</h1>
+
+    {% for item in penyakit %}
+    <div class="bar">
+      <div class="bar-label">{{ item.nama }}</div>
+      <div class="bar-value" style="width: {{ item.persen }}%; max-width: 100%;"></div>
+      <div class="bar-count">({{ item.jumlah }} kasus)</div>
+    </div>
+    {% endfor %}
+    <br>
+    <p>Untuk melihat semua list penyakit yang dialami mahasiswa, buka <a href="/penyakit">halaman ini</a>.</p>
+
+    <br>
+    <h1 style="text-align: center;">Mahasiswa Paling Sering Melakukan Kunjungan</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>NIM</th>
+          <th>Nama</th>
+          <th>Prodi</th>
+          <th>Jumlah Kunjungan</th>
+          <th>Terakhir Berkunjung</th>
+          <th>Riwayat Berkunjung</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for mhs in mahasiswa %}
+        <tr>
+          <td>{{ loop.index }}</td>
+          <td>{{ mhs.nim }}</td>
+          <td>{{ mhs.nama }}</td>
+          <td>{{ mhs.prodi }}</td>
+          <td>{{ mhs.jumlah }}</td>
+          <td>{{ mhs.terakhir }}</td>
+          <td><a href="/riwayat/{{ mhs.nim }}" class="button">Lihat</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <p>Untuk melihat mahasiswa yang paling sering berkunjung, buka <a href="/mahasiswa">halaman ini</a>.</p>
+  </div>
+  <div class="wave-footer">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#0099ff" fill-opacity="1" d="M0,64L48,85.3C96,107,192,149,288,149.3C384,149,480,107,576,101.3C672,96,768,128,864,128C960,128,1056,96,1152,74.7C1248,53,1344,43,1392,37.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+</body>
+</html>

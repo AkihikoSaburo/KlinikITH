@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistik Mahasiswa</title>
+  <link rel="icon" href="{{ url_for('static', filename='ITH_No_BG.png') }}" type="image/png">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/mahasiswa.css') }}">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-left">
+      <div class="logo-placeholder"><img src="{{ url_for('static', filename='ITH.png') }}" alt="Logo ITH"></div>
+      <span><a href="/" style="text-decoration: none; color: white;"><strong>Klinik ITH</strong></a></span>
+    </div>
+    <div class="nav-right">
+      <a href="/">Dashboard</a>
+      <a href="/input" style="margin-left: 15px;">Input Kunjungan</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Daftar Mahasiswa Berdasarkan Kunjungan</h1>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <ul class="flash-messages">
+          {% for category, message in messages %}
+            <li class="flash {{ category }}">{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+    
+    <!-- FORM CARI -->
+    <form method="GET" class="search-bar">
+      <input type="text" name="q" placeholder="Cari NIM..." value="{{ query }}">
+      <button type="submit">Cari</button>
+    </form>
+
+    <!-- TABEL -->
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>NIM</th>
+          <th>Nama</th>
+          <th>Prodi</th>
+          <th>Jumlah Kunjungan</th>
+          <th>Terakhir Berkunjung</th>
+          <th>Riwayat Berkunjung</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for mhs in mahasiswa %}
+        <tr>
+          <td>{{ loop.index }}</td>
+          <td>{{ mhs.nim }}</td>
+          <td>{{ mhs.nama }}</td>
+          <td>{{ mhs.prodi }}</td>
+          <td>{{ mhs.jumlah }}</td>
+          <td>{{ mhs.terakhir }}</td>
+          <td><a href="/riwayat/{{ mhs.nim }}" type="button">Lihat</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <div class="wave-footer">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,32L48,58.7C96,85,192,139,288,144C384,149,480,107,576,117.3C672,128,768,192,864,218.7C960,245,1056,235,1152,208C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </div>
+</body>
+</html>
