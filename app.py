@@ -16,6 +16,7 @@ from controllers.penyakit import penyakit_bp
 from core import pasien, kunjungan
 
 app = Flask(__name__)
+app.secret_key = "klinikith2025"
 
 # Mendaftarkan blueprint dari controllers yang telah dibuat
 app.register_blueprint(home_bp)

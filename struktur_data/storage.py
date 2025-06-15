@@ -5,6 +5,7 @@ import json
 import os
 
 from struktur_data.hash_table import HashTable
+from struktur_data.merge_sort_json import merge_sort_dict_items
 
 def load_json_as_hashtable(filepath):
     """
@@ -32,13 +33,10 @@ def load_json_as_hashtable(filepath):
 
     return hashtable
 
+def save_hashtable_as_json(filepath, hashtable_data):
+    items = list(hashtable_data.items())
+    sorted_items = merge_sort_dict_items(items)
+    sorted_dict = dict(sorted_items)
 
-def save_hashtable_as_json(filepath, hashtable):
-    """
-    Simpan isi HashTable ke file JSON.
-    """
-    # Mengubah data dari HashTable menjadi data yang di susun dalam bentuk Dict
-    data_dict = dict(hashtable.items())
-    with open(filepath, 'w', encoding='utf-8') as file:
-        json.dump(data_dict, file, ensure_ascii=False, indent=2)
-        print(f"[✓] HashTable berhasil disimpan ke {filepath}.")
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(sorted_dict, f, ensure_ascii=False, indent=4)
